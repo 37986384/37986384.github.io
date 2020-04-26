@@ -3,20 +3,231 @@
  <head>
   <meta charset="UTF-8">
   <title>My Web Page</title>
+<style type="text/css">
+footer {
+    background-color: #30323a;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+</style>
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
  </head>
  <body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <a class="navbar-brand" href="#">iBC</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
 
-   <h1 class="display-1">My First Website</h1>
-    <h2 class="display-2">My favorite fruit.</h2>
-     <h3 class="display-3">My favorite fruit.</h3>
-      <h4 class="display-4">My favorite fruit.</h4>
-       <h5 class="display-5">My favorite fruit.</h5>
-        <h6 class="display-6">My favorite fruit.</h6>
-        <p>This is my paragraph.</p > <br>
-          <p>This is another paragraph.</p >
-            <img src="http://by.cuc.edu.cn/_upload/site/00/05/5/logo.png"></img>
-            <a href="http://by.cuc.edu.cn/">This is the link to CUC's website</a >
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Lifetime</a>
+         </li>
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Works
+           </a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <a class="dropdown-item" href="#">movie</a>
+             <a class="dropdown-item" href="#">teleplay</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="#">Something else here</a>
+           </div>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+         </li>
+       </ul>
+       <form class="form-inline my-2 my-lg-0">
+         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Work Search</button>
+       </form>
+     </div>
+   </nav>
+   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="1.jpeg" class="d-block w-100" alt="2.jpeg">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>COOL</h5>
+        <p>The role of Dr. strange in the film.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="2.jpeg" class="d-block w-100" alt="3.jpeg">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>CALM</h5>
+        <p>A dramatic picture of the film power struggle.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="3.jpeg" class="d-block w-100" alt="1.jpeg">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>WITTY</h5>
+        <p>Sherlock Sherlock Sherlock Holmes.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<nav class="bg-dark">
+<blockquote class="blockquote text-center">
+  <p class="mb-0" style="padding-bottom:3rem">I don't care about your past. It's your business. I hope to participate in your future, which is my honor.</p>
+  <footer class="blockquote-footer">----- <cite title="Source Title">Shylock</cite></footer>
+</blockquote>
+</nav>
+
+<h3>
+  Character
+  <small class="text-muted">Introduction and life</small>
+</h3>
+
+<div class="card mb-3" style="max-width: 860px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="9.jpeg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Benedict Cumberbatch</h5>
+        <p class="card-text">Born in London, England on July 19, 1976, British actor and producer.
+In 2000, Cumberbatch began his acting career in the TV series heartbeat. In 2010, he began to star in the TV series Sherlock The detective. He won many best actor awards such as Emmy Award and golden Satellite Award, and was nominated for best actor of Golden Globe Award. In 2011, he won the Oliver Award for Best Actor for the stage play Frankenstein. In 2014, he won the best actor award of Hollywood film award, Oscar, Golden Globe Award, British Film Academy Award and other best actor nominations with the film imitation game, and was selected into the "world's most influential people" list of the year of time, and once again appeared on the cover of the American and international editions of the magazine in December. In 2015, she was awarded the British Empire commander (CBE) by the queen of England and invited to join the Academy of Motion Picture Arts and Sciences. In 2016, he began to star in Marvel's movie "strange doctor". In 2019, he won the best actor award of BTV Academy Award for his TV series Melrose.</p>
+        <p class="card-text"><small class="text-muted">2.31 million reading</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h3>
+  Classic
+  <small class="text-muted">Interpretation of works</small>
+</h3>
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="card shadow p-2 mb-2 bg-white rounded">
+  <img src="5.jpeg" class="card-img-top" alt="card-img-cap">
+  <div class="card-body">
+    <h5 class="card-title">Patrick Melrose</h5>
+    <p class="card-text">The play tells the story of Melrose who was abused by his family when he was young, began to take drugs when he grew up, and finally overcame his difficulties and recovered to a healthy life.</p>
+    <a href="https://baike.baidu.com/item/梅尔罗斯/20459852" class="btn btn-primary">more</a>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card shadow p-2 mb-2 bg-white rounded">
+  <img src="4.jpeg" class="card-img-top" alt="card-img-cap">
+  <div class="card-body">
+    <h5 class="card-title">Frankenstein</h5>
+    <p class="card-text">Victor Frankenstein, the hero, is a mad scientist. He splices pieces of corpses into a "human" and uses electricity to activate it to create an ugly monster...</p>
+    <a href="https://baike.baidu.com/item/弗兰肯斯坦/18886476" class="btn btn-primary">more</a>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card shadow p-2 mb-2 bg-white rounded">
+  <img src="6.jpeg" class="card-img-top" alt="card-img-cap">
+  <div class="card-body">
+    <h5 class="card-title">THE IMITATION GAME</h5>
+    <p class="card-text">The film is adapted from the biography of Alan Turing by Andrew Hodges. It tells the legend of Alan Turing, the father of computer science. The story focuses on Turing's help to decipher the German cryptosystem "Ingmar", so as to reverse the war of World War II.</p>
+    <a href="https://baike.baidu.com/item/模仿游戏/316903" class="btn btn-primary">more</a>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card shadow p-2 mb-2 bg-white rounded">
+  <img src="7.jpeg" class="card-img-top" alt="card-img-cap">
+  <div class="card-body">
+    <h5 class="card-title">Patrick Melrose</h5>
+    <p class="card-text">The play tells the story of Melrose who was abused by his family when he was young, began to take drugs when he grew up, and finally overcame his difficulties and recovered to a healthy life.</p>
+    <a href="https://baike.baidu.com/item/奇异博士/2492942" class="btn btn-primary">more</a>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card shadow p-2 mb-2 bg-white rounded">
+  <img src="8.jpeg" class="card-img-top" alt="card-img-cap">
+  <div class="card-body">
+    <h5 class="card-title">SHERLOCK</h5>
+    <p class="card-text">Tells a series of dangerous and unusual adventures experienced by Sherlock Holmes and his friend John H. Watson in the bustling London metropolis.</p>
+    <a href="https://baike.baidu.com/item/神探夏洛克/8466957" class="btn btn-primary">more</a>
+  </div>
+  </div>
+  </div>
+</div>
+
+<footer>
+      <div class="container-fluid">
+          <div class="row text-center">
+                <div class="col-md-2">
+                      <h5>About</h5>
+                  <hr class="light">
+                  <p>Our numbers</p>
+                  <p>233-3333-3333</p>
+
+                </div>
+                <div class="col-md-2">
+                      <h5>Privacy</h5>
+                  <hr class="light">
+                  <p>Information You Provide Through Your Account</p>
+                  <p>Welcom to Here</p>
+                    <p>Creators</p>
+                    <p>Additional Information We Collect</p>
+                    <p>How We Use Your Information</p>
+                </div>
+                <div class="col-md-2">
+                      <h5>Policy &amp; Terms</h5>
+                  <hr class="light">
+                  <p>Terms ofUse</p>
+                  <p>Privacy Policy</p>
+                    <p>Copyright and Trademark</p>
+                      <p>Cookie Policy</p>
+                </div>
+                <div class="col-md-2">
+                      <h5>Accessibility</h5>
+                  <hr class="light">
+                  <p>Usability tips</p>
+                  <p>Third Party Content, Functionality, and Apps</p>
+                  <p>Contact us</p>
+                </div>
+                <div class="col-md-2">
+                      <h5>Help Center</h5>
+                  <hr class="light">
+                  <p>Your account</p>
+                  <p>Resolve Issuse</p>
+                </div>
+                <div class="col-md-2">
+                      <h5>FAQ</h5>
+                  <hr class="light">
+                  <p>Creator Blog</p>
+                  <p>Creator Guides</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light">
+                    <h5>©A Bite of The Classic of Mountains and Rivers.com</h5>
+
+                        </div>
+    </div>
+</div></footer>
+
 
               <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
               <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
